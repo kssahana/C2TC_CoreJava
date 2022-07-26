@@ -6,10 +6,16 @@ class Employee
 	String name;
 	float salary;
 	
-	Employee(int id, String name, float salary)
-	{
-		System.out.println("user defined no argument " + " constuctor executed");
+	public Employee(int id, String name, int salary) {
+		super();
+		this.id=id;
+		this.name=name;
+		this.salary=salary;
 	}
+
+
+
+
 	void display()
 	{
 		System.out.println(id+" "+name+" "+salary);

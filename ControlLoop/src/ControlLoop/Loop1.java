@@ -10,7 +10,7 @@ public class Loop1 {
 				break;
 			System.out.println("after breaking="+i);
 		}
-System.out.println("for loop terminated.");
+			System.out.println("for loop terminated.");
 	}
 
 }
