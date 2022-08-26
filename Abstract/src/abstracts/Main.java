@@ -21,7 +21,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Movie m=new mymovie();
-		System.out.println(m.setTitle("ranna"));
+		System.out.println(m.setTitle("robert"));
 
 	}
 
